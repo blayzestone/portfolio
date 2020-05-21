@@ -8,6 +8,7 @@ export const useStyles = createUseStyles((theme) => ({
     display: "flex",
     justifyContent: "center",
     backgroundColor: theme.primaryColor,
+    color: theme.textColor,
     position: "relative",
   },
 }));

@@ -17,14 +17,12 @@ export const useLandingStyles = createUseStyles((theme) => ({
 
   title: {
     width: "max-content",
-    color: theme.textColor,
     fontSize: "2.5rem",
     padding: "1rem",
     borderBottom: "solid 1px",
   },
   subtitle: {
     margin: 0,
-    color: theme.textColor,
     textAlign: "center",
     fontSize: "1.5rem",
   },
