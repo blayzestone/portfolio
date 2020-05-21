@@ -1,10 +1,10 @@
 import React from "react";
-import { useStyles } from "../hooks/styles/useStyles";
+import { useLandingStyles } from "../hooks/styles/useLandingStyles";
 import { colorMode } from "../utils/colorMode";
 import Particles from "react-particles-js";
 
 const Landing = ({ darkMode }) => {
-  const classes = useStyles();
+  const classes = useLandingStyles();
   const { textColor } = colorMode(darkMode);
 
   return (
