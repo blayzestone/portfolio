@@ -11,7 +11,7 @@ function App() {
     <ThemeProvider theme={() => colorMode(darkMode)}>
       <>
         <ToggleDarkMode darkMode={darkMode} setDarkMode={setDarkmode} />
-        <Landing />
+        <Landing darkMode={darkMode} />
       </>
     </ThemeProvider>
   );

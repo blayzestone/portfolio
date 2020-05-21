@@ -8,6 +8,13 @@ export const useStyles = createUseStyles((theme) => ({
     display: "flex",
     justifyContent: "center",
     backgroundColor: theme.primaryColor,
+    position: "relative",
+  },
+
+  particles: {
+    width: "100%",
+    height: "100%",
+    position: "absolute",
   },
 
   titlesContainer: {
