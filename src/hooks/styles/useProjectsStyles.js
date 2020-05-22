@@ -10,7 +10,6 @@ export const useProjectsStyles = createUseStyles((theme) => ({
     textAlign: "center",
 
     "& a": {
-      fontSize: "1.2rem",
       color: theme.textColor,
       margin: "0 1rem",
     },

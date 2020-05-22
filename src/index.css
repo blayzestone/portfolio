@@ -13,3 +13,14 @@ body {
 * {
   box-sizing: border-box;
 }
+
+a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-bottom: solid 1px;
+}
+
+a:hover {
+  opacity: 0.5;
+  border: none;
+}

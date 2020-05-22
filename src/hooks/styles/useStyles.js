@@ -27,9 +27,7 @@ export const useStyles = createUseStyles((theme) => ({
     },
 
     "& a": {
-      fontSize: "1.2rem",
       color: theme.textColor,
-      textDecoration: "none",
     },
   },
 
