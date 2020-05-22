@@ -1,7 +1,8 @@
 import React from "react";
+import Particles from "react-particles-js";
 import { useLandingStyles } from "../hooks/styles/useLandingStyles";
 import { colorMode } from "../utils/colorMode";
-import Particles from "react-particles-js";
+import { links } from "../constants";
 import Section from "../components/Section";
 
 const Landing = ({ darkMode }) => {
@@ -9,7 +10,7 @@ const Landing = ({ darkMode }) => {
   const { textColor } = colorMode(darkMode);
 
   return (
-    <Section>
+    <Section id={links.home}>
       <Particles
         className={classes.particles}
         params={{
