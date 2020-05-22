@@ -16,8 +16,6 @@ function App() {
       <ThemeProvider theme={() => colorMode(darkMode)}>
         <Navigation darkMode={darkMode} setDarkMode={setDarkMode} />
         <Landing darkMode={darkMode} />
-        <About />
-        <Skills />
         <Projects />
       </ThemeProvider>
     </>

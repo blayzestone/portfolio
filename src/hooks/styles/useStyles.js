@@ -36,6 +36,7 @@ export const useStyles = createUseStyles((theme) => ({
     height: "100vh",
     overflow: "hidden",
     display: "flex",
+    flexWrap: "wrap",
     justifyContent: "center",
     backgroundColor: theme.primaryColor,
     color: theme.textColor,
