@@ -8,6 +8,7 @@ export const useLandingStyles = createUseStyles((theme) => ({
   },
 
   titlesContainer: {
+    position: "relative",
     alignSelf: "center",
     display: "flex",
     flexDirection: "column",
@@ -22,8 +23,15 @@ export const useLandingStyles = createUseStyles((theme) => ({
     borderBottom: "solid 1px",
   },
   subtitle: {
-    margin: 0,
+    margin: "0 0 1rem",
     textAlign: "center",
     fontSize: "1.5rem",
+  },
+
+  social: {
+    fontSize: "2.5rem",
+    margin: "1rem",
+    color: theme.textColor,
+    border: "none",
   },
 }));

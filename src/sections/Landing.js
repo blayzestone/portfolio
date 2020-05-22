@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Particles from "react-particles-js";
 import { useLandingStyles } from "../hooks/styles/useLandingStyles";
 import { colorMode } from "../utils/colorMode";
@@ -29,6 +30,17 @@ const Landing = ({ darkMode }) => {
       <div className={classes.titlesContainer}>
         <h1 className={classes.title}>Blayze Stone</h1>
         <p className={classes.subtitle}>Full Stack software developer.</p>
+        <div>
+          <a href="https://github.com/blayzestone" className={classes.social}>
+            <FaGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/blayze-stone/"
+            className={classes.social}
+          >
+            <FaLinkedin />
+          </a>
+        </div>
       </div>
     </Section>
   );
