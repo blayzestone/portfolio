@@ -8,9 +8,11 @@ export const useStyles = createUseStyles((theme) => ({
     width: "100%",
     display: "flex",
     justifyContent: "center",
+    backgroundColor: theme.primaryColor,
   },
 
   navigation: {
+    opacity: 1,
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
