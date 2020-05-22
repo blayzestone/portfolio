@@ -9,7 +9,7 @@ const Navigation = ({ darkMode, setDarkMode }) => {
 
   useEffect(() => {
     const element = document.getElementById(targetLink);
-    targetLink && element.scrollIntoView({ behavior: "smooth" });
+    targetLink && element && element.scrollIntoView({ behavior: "smooth" });
   }, [targetLink]);
 
   const scrollToTarget = (evt, link) => {
