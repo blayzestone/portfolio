@@ -7,10 +7,9 @@ export const links = {
 
 export const projects = [
   {
-    title: "Charity Finder",
-    desc:
-      "A front end project that connects with an api to fetch a list of charities. The user can login, search for charities, and save them to their profile. Data is saved to localStorage.",
-    deployed: "https://charity-finder.now.sh/",
-    github: "https://github.com/blayzestone/Charity-Finder",
+    title: "Dev Queue",
+    desc: "a CRUD application that allows students to create tickets and helpers to resolve those tickets.",
+    deployed: "https://dev-queue-2.netlify.app/",
+    github: "https://github.com/Build-Week-Dev-Queue-2/front-end",
   },
 ];
