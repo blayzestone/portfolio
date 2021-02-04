@@ -2,19 +2,27 @@ import { createUseStyles } from "react-jss";
 
 export const useAboutStyles = createUseStyles((theme) => ({
 	container: {
-		width: "50%",
 		position: "relative",
 		alignSelf: "center",
 		display: "flex",
 		flexDirection: "column",
 		justifyContent: "space-between",
-		fontSize: "1.5rem",
+		fontSize: "1.2rem",
 		zIndex: 1,
 		borderLeft: "solid 1px",
-		padding: "0.5rem 1rem",
+		margin: "1rem",
+		padding: "1rem",
+
+		  "@media (min-width: 500px)": {
+			width: "90%",
+		  },
+
+		  "@media (min-width: 1200px)": {
+			width: "50%",
+		  },
 	},
 	title: {
-		fontSize: "2.5rem",
+		fontSize: "2rem",
 		margin: 0,
 	}
 
