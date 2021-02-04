@@ -3,7 +3,7 @@ import { createUseStyles } from "react-jss";
 export const useStyles = createUseStyles((theme) => ({
   header: {
     position: "fixed",
-    zIndex: 1,
+    zIndex: 100,
     padding: "1rem",
     width: "100%",
     display: "flex",

@@ -8,6 +8,7 @@ export const useLandingStyles = createUseStyles((theme) => ({
     flexDirection: "column",
     justifyContent: "space-between",
     alignItems: "center",
+    zIndex: 1,
   },
 
   title: {
