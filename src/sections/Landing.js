@@ -29,7 +29,7 @@ const Landing = ({ darkMode }) => {
       />
       <div className={classes.titlesContainer}>
         <h1 className={classes.title}>Blayze Stone</h1>
-        <p className={classes.subtitle}>Full Stack software developer.</p>
+        <p className={classes.subtitle}>Front End Engineer.</p>
         <div>
           <a href="https://github.com/blayzestone" className={classes.social}>
             <FaGithub />
