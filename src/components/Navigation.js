@@ -3,7 +3,7 @@ import ToggleDarkMode from "./ToggleDarkMode";
 import { useStyles } from "../hooks/styles/useStyles";
 import { links } from "../constants";
 
-const Navigation = ({ darkMode, setDarkMode }) => {
+const Navigation = ({ darkMode, setDarkMode, setSection }) => {
   const [targetLink, setTargetLink] = useState(null);
   const { header, navigation } = useStyles();
 
@@ -20,8 +20,11 @@ const Navigation = ({ darkMode, setDarkMode }) => {
   return (
     <header className={header}>
       <div className={navigation}>
-        {Object.values(links).map((link) => (
-          <a href={`#${link}`} onClick={(evt) => scrollToTarget(evt, link)}>
+        {Object.values(links).map((link, i) => (
+          // <a href={`#${link}`} onClick={(evt) => scrollToTarget(evt, link)}>
+          //   {link}
+          // </a>
+          <a href={`#${link}`} onClick={(evt) => setSection(i)}>
             {link}
           </a>
         ))}
