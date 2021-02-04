@@ -1,12 +1,6 @@
 import { createUseStyles } from "react-jss";
 
 export const useLandingStyles = createUseStyles((theme) => ({
-  particles: {
-    width: "100%",
-    height: "100%",
-    position: "absolute",
-  },
-
   titlesContainer: {
     position: "relative",
     alignSelf: "center",
@@ -14,6 +8,7 @@ export const useLandingStyles = createUseStyles((theme) => ({
     flexDirection: "column",
     justifyContent: "space-between",
     alignItems: "center",
+    zIndex: 1,
   },
 
   title: {

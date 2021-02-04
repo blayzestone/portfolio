@@ -8,18 +8,22 @@ const Projects = () => {
 
   return (
     <Section id={links.projects}>
-      {projects.map((project) => (
-        <div className={classes.card}>
-          <h2 className={classes.title}>{project.title}</h2>
-          <p className={classes.desc}>{project.desc}</p>
-          <a target="_blank" href={project.github}>
-            Github
-          </a>
-          <a target="_blank" href={project.deployed}>
-            Demo
-          </a>
-        </div>
-      ))}
+      <div className={classes.container}>
+        {projects.map((project) => (
+          <div className={classes.card}>
+            <h2 className={classes.title}>{project.title}</h2>
+            <p>{project.desc}</p>
+            <div>
+              <a target="_blank" href={project.github}>
+                Github
+              </a>
+              <a target="_blank" href={project.deployed}>
+                Demo
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
     </Section>
   );
 };
