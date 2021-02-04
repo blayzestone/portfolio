@@ -5,7 +5,6 @@ import { colorMode } from "./utils/colorMode";
 import Navigation from "./components/Navigation";
 import Landing from "./sections/Landing";
 import About from "./sections/About";
-import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
   const sections = [
     <Landing darkMode={darkMode} />,
     <About darkMode={darkMode} />,
-    <Skills darkMode={darkMode} />,
     <Projects darkMode={darkMode} />
   ];
   const particles = {
