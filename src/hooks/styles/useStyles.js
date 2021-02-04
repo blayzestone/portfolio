@@ -33,8 +33,7 @@ export const useStyles = createUseStyles((theme) => ({
 
   section: {
     width: "100%",
-    height: "100vh",
-    overflow: "hidden",
+    minHeight: "100vh",
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "center",
