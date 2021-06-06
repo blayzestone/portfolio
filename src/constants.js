@@ -6,21 +6,15 @@ export const links = {
 
 export const projects = [
   {
+    title: "Notes for Friends",
+    desc: "A social network where users can leave notes for their friends. Created using React, TailwindCss, React-hook-form, and localStorage for data persistence.",
+    deployed: "https://notes-for-friends.vercel.app/",
+    github: "https://github.com/blayzestone/notes-for-friends",
+  },
+  {
     title: "The Game of Life",
     desc: "Conway's Game of Life created in React",
     deployed: "https://blayzestone.github.io/game-of-life/",
     github: "https://github.com/blayzestone/game-of-life",
-  },
-  {
-    title: "Responsive Site",
-    desc: "Fully responsive, pixel-perfect website created from photoshop mockups",
-    deployed: "https://blayzestone.github.io/Sprint-Challenge--User-Interface/index.html",
-    github: "https://github.com/blayzestone/Sprint-Challenge--User-Interface",
-  },
-  {
-    title: "Great Idea",
-    desc: "Fully responsive, pixel-perfect website created from photoshop mockups",
-    deployed: "https://blayzestone.github.io/responsive-web-design-I/",
-    github: "https://github.com/blayzestone/responsive-web-design-I",
   },
 ];
