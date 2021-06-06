@@ -13,7 +13,14 @@ const About = ({ darkMode }) => {
       <div className={classes.container}>
         <h2 className={classes.title}>About</h2>
         <p className={classes.test}>
-          I'm a recent grad from Lambda School, an intensive full-time bootcamp that teaches HTML5, CSS3, Javascript, React, Redux, NodeJS, and Computer Science fundamentals. I've also done some volunteer work and freelance work.
+          Hey there, my name is Blayze Stone. I'm a freelance Front End
+          Engineer. I'm also a Lambda School grad. Lambda School is an intensive
+          full-time bootcamp that teaches Javascript, React, Redux, HTML5, CSS3,
+          NodeJS, Postgresql, Python, and Computer Science fundamentals.
+        </p>
+        <p>
+          When I'm not coding you can find me working out at the gym or reading
+          philosophy.
         </p>
       </div>
     </Section>
